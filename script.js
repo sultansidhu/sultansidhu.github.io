@@ -99,7 +99,7 @@ $(function(){
     // Some contact form shenanigans
     
     $('.container-right button').click(function(event){
-        event.preventDefault(); // prevents form submission before validation
+        
         var name = $('#name').val();
         var email = $('#email').val();
         var subject = $('#subject').val();
@@ -108,16 +108,19 @@ $(function(){
         
         if (subject.length <= 2){
             status.text('Subject is too short!');
+            event.preventDefault(); // prevents form submission before validation
         }
         
         if (message.length < 1){
             status.text('Please write a message!');
+            event.preventDefault(); // prevents form submission before validation
         }
         
         if (email.length > 5 && email.includes('@') && email.includes('.')){
             console.log('email is valid');
         } else {
             status.text('Email is invalid!');
+            event.preventDefault(); // prevents form submission before validation
         }
     });
     
