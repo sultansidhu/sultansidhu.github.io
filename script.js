@@ -122,6 +122,7 @@ $(function(){
             status.text('Email is invalid!');
             event.preventDefault(); // prevents form submission before validation
         }
+
     });
     
     
