@@ -126,6 +126,11 @@ $(function(){
     });
     
     
+    // Some other shenanigans
+    
+    
     
 });
+
+console.log(navigator.userAgent);
 
