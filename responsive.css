@@ -5,6 +5,7 @@
     #nametag{
         font-size:20px;
         padding-top:45px;
+        padding-right:10px;
     }
     
     #headerMenuOptions li{
@@ -15,6 +16,11 @@
     
     #bioDiv{
         height:410px;
+    }
+    
+    #photoDiv img{
+        height:370px;
+        width:370px;
     }
     
     #bioDiv p{
@@ -49,7 +55,7 @@
     }
 
     #stemExp .image img{
-        height:240px;
+        height:200px;
         margin:5px 0px 0px 100px;
     }
     
@@ -84,6 +90,46 @@
 }
 
 
-@media(max-width:895px){
+@media(max-width:1030px){
+    /*Bio*/
     
+    #bioDiv{
+        height:340px;
+    }
+    
+    #bioDiv h1{
+        margin:5%;
+    }
+    
+    #photoDiv img{
+        height:300px;
+        width:300px;
+    }
+    
+    #bioDiv p{
+        font-size: 12px;
+    }
+    
+    /*Project*/
+    
+    #projectScreen .heading{
+        padding:10px;
+        font-size: 10px;
+        color: white;
+        text-align: left;
+        font-weight: normal;
+    }
+}
+
+
+@media(max-width:855px){
+    /*header*/
+    #nametag{
+        font-size:40px;
+        padding-top:10px;
+        padding-right:0px;
+    }
+    .show{
+        display:none;
+    }
 }
