@@ -1,10 +1,14 @@
 @media(max-width:1180px){
     
-    /*Welcome*/
+    /*Header*/
     
     #nametag{
         font-size:20px;
         padding-top:45px;
+    }
+    
+    #headerMenuOptions li{
+        font-size: 12px;
     }
     
     /*Bio*/
@@ -26,4 +30,62 @@
     #skillScreen .container ul li{
         font-size:12px;
     }
+    
+    /*Experience*/
+    
+    .description{
+        font-size:12px;
+        width:35%;
+    }
+    
+    #researchExp .image img{
+    margin:0px 200px 0px 0px;
+    }
+
+    #stemExp .image img{
+        height:240px;
+        margin:5px 0px 0px 200px;
+    }
+    
+    /*Projects*/
+    #projectScreen{
+        height:600px;
+    }
+    
+    .project img{
+        height:200px;
+    }
+    
+    .project{
+        font-size:12px;
+    }
+    
+    .index-btns{
+        width:30%;
+        margin: 0% 33% 0% 37%;
+    }
+    
+    /*Education*/
+    
+    .school-desc{
+        font-size:12px;
+    }
+    
+    #educationScreen{
+        height:550px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
