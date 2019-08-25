@@ -175,9 +175,79 @@
         margin:3% 20% 0% 20%;
     }
     
+    /*Skills*/
+    
+    #skillScreen .container {
+        width:100%;
+        color:white;
+        background-color: black;
+    }
+    
     /*Experience*/
     
+    #experienceScreen{
+        height:1200px;
+    }
     
+    .description{
+        width:100%;
+    }
+    
+    #researchExp .image{
+        float:left;
+        padding:0% 20%;
+    }
+
+    #researchExp .description{
+        float:left;
+    }
+
+    #stemExp .description{
+        float:left;
+    }
+
+    #stemExp .image{
+        float:left;
+        height:300px;
+        padding:5% 20%;
+    }
+    
+    #stemExp .image img{
+        height:250px;
+    }
+    
+    /*Project */
+    
+    .project{
+        width:70%;
+        margin:0% 15%;
+    }
+    
+    .index-btns{
+        width:50%;
+        margin: 0% 23% 0% 27%;
+    }
+
+    /*Education*/
+    
+    #educationScreen{
+        height:1600px;
+    }
+    
+    .school{
+        width:80%;
+        margin:4% 10%;
+    }
+    
+    /*Contact*/
+    
+    .container-left{
+        width:100%;
+    }
+    
+    .container-right{
+        width:100%;
+    }
 
     
 }
