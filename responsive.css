@@ -167,6 +167,7 @@
         width:80%;
         align-content: center;
         margin:0% 10%;
+        display:none;
     }
     
     #photoDiv img{
@@ -186,7 +187,11 @@
     /*Experience*/
     
     #experienceScreen{
-        height:1200px;
+        height:700px;
+    }
+    
+    #experienceScreen .heading {
+        margin-top: 330px;
     }
     
     .description{
@@ -196,6 +201,7 @@
     #researchExp .image{
         float:left;
         padding:0% 20%;
+        display:none;
     }
 
     #researchExp .description{
@@ -210,6 +216,7 @@
         float:left;
         height:300px;
         padding:5% 20%;
+        display:none;
     }
     
     #stemExp .image img{
@@ -224,8 +231,12 @@
     }
     
     .index-btns{
-        width:50%;
-        margin: 0% 23% 0% 27%;
+        width:70%;
+        margin: 0% 10% 0% 20%;
+    }
+    
+    .index-btn{
+        margin:0px 7px;
     }
 
     /*Education*/
