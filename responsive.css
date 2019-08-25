@@ -1,3 +1,29 @@
-@media(max-width:1267px){
+@media(max-width:1180px){
     
+    /*Welcome*/
+    
+    #nametag{
+        font-size:20px;
+        padding-top:45px;
+    }
+    
+    /*Bio*/
+    
+    #bioDiv{
+        height:430px;
+    }
+    
+    #bioDiv p{
+        font-size: 12px;
+    }
+    
+    /*Skills*/
+    
+    #skillScreen{
+        height:350px;
+    }
+    
+    #skillScreen .container ul li{
+        font-size:12px;
+    }
 }
