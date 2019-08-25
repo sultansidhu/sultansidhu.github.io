@@ -14,7 +14,7 @@
     /*Bio*/
     
     #bioDiv{
-        height:430px;
+        height:410px;
     }
     
     #bioDiv p{
@@ -25,6 +25,12 @@
     
     #skillScreen{
         height:350px;
+    }
+    
+    #skillScreen .container{
+        background-color: white;
+        color: black;
+        margin-top:25px;
     }
     
     #skillScreen .container ul li{
@@ -74,18 +80,5 @@
     #educationScreen{
         height:550px;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 }
