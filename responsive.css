@@ -124,12 +124,60 @@
 
 @media(max-width:855px){
     /*header*/
+    header{
+        height:120px;
+    }
+    #headerMenuOptions{
+        float: left;
+        text-align: center;
+        width:80%;
+        margin:0% 20% 0% 0%;
+    }
+    
+    #headerMenuOptions li{
+        display:inline;
+        padding: 5px 5px 5px 5px;
+        border-bottom:none;
+        transition: all 0.5s;
+    }
+
+    #headerMenuOptions li:hover{
+        transition: all 0.5s;
+        opacity:1;
+        border-bottom:2px solid red;
+        cursor: pointer;
+    }
+    
     #nametag{
-        font-size:40px;
-        padding-top:10px;
-        padding-right:0px;
+        display:none;
     }
     .show{
         display:none;
     }
+    /*welcome*/
+    #welcomeScreen h1{
+        font-size: 70px;
+    }
+    /*Bio*/
+    #bioDiv{
+        width:100%;
+    }
+    
+    #photoDiv {
+        width:80%;
+        align-content: center;
+        margin:0% 10%;
+    }
+    
+    #photoDiv img{
+        width:300px;
+        height:300px;
+        margin:3% 20% 0% 20%;
+    }
+    
+    /*Experience*/
+    
+    
+
+    
 }
