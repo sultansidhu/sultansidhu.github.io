@@ -48,7 +48,15 @@ header:hover{
     transition: all 0.5s;
     opacity:1;
     border-bottom:2px solid red;
-    cursor: pointer;
+    /*cursor: pointer;*/
+}
+
+.show:hover{
+    cursor:pointer;
+}
+
+#cnt, #github, #linkedin, #resume:hover{
+    cursor:pointer;
 }
 
 body{
