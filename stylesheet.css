@@ -301,12 +301,60 @@ body{
     margin: 0% 38% 0% 42%;
 }
 
+/*Coursework Screen*/
+#courseworkScreen{
+    background-color: black;
+    font-family:"Andale Mono";
+    color: white;
+    padding:40px;
+    height:530px;
+}
+
+#courseworkScreen .header{
+    text-align: center;
+}
+
+.courses{
+    display: inline;
+}
+
+.courseListLeft {
+    width:44%;
+    margin: 3%;
+    float: left;
+}
+
+.courseListLeft ul{
+    list-style-type: none;
+}
+
+.courseListLeft li{
+    padding: 5px 0px;
+    transition: all 0.5s;
+}
+
+.courseListLeft li:hover{
+    border-bottom: 2px solid red;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.courseDescription{
+    width: 30%;
+    margin: 10%;
+    float: right;
+}
+
+
+
 /*Education Screen*/
 
 #educationScreen{
     font-family: "Andale Mono";
     height:700px;
-    background-color: black;
+    background-image: url("Images/Background Images/background2.png");
+    background-size: cover;
+    background-attachment: fixed;
     padding:20px;
     transition:all 0.5s;
     color: white;
@@ -320,6 +368,8 @@ body{
 .school {
     width:26%;
     margin:3%;
+    background-color: white;
+    color: black;
     display:inline-block;
     transition: all 0.5s; 
 }
