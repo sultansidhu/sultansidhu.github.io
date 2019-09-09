@@ -58,6 +58,12 @@ $(function(){
         }, 1000);
     });
     
+    $('#crs').click(function(){
+        $('html, body').animate({
+            scrollTop:$('#courseworkScreen').offset().top -100
+        }, 1000);
+    });
+    
     $('#edu').click(function(){
         $('html, body').animate({
             scrollTop:$('#educationScreen').offset().top -100
