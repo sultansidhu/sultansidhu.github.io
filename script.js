@@ -27,12 +27,15 @@ $(function(){
     $('header').hover(function(){
         $('header').css('background-color', 'white');
         $('#headerMenuOptions').css('color', 'black');
+        $('#resume a i').css('color', 'black');
     }, function(){
         $('header').css('background-color', '#4d4b4c');
         $('#headerMenuOptions').css('color', 'white');
+        $('#resume a i').css('color', 'white');
     });
     
     // internal links
+    
     
     $('#bio').click(function(){
         $('html, body').animate({

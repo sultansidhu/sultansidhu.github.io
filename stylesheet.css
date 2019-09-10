@@ -16,6 +16,13 @@ header:hover{
     transition: all 0.5s;
 }
 
+#resume a i{
+    text-decoration: none;
+    background-color: none;
+    color: white;
+    transition: all 0.5s;
+}
+
 #nametag {
     float:left;
     padding-left:30px;
@@ -28,6 +35,7 @@ header:hover{
 #name{
     border-bottom:2px solid red;
 }
+
 
 #headerMenuOptions{
     float:right;
