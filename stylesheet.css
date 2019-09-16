@@ -168,7 +168,7 @@ body{
 #experienceScreen{
     background-color: black;
     background-size: cover;
-    height:720px;
+    height:1150px;
     font-family: "Andale Mono";
 }
 
@@ -194,7 +194,7 @@ body{
 
 #stemExp .image img{
     height:250px;
-    margin:5px 0px 0px 300px;
+    margin:5px 0px 0px 5px;
 }
 
 .description{
@@ -219,6 +219,7 @@ body{
 
 #researchExp {
     height:300px;
+    padding-bottom: 50px;
 }
 
 #researchExp .image{
@@ -229,13 +230,34 @@ body{
     float:left;
 }
 
-#stemExp .description{
+#softdriveExp{
+    height:300px;
+    padding-bottom: 50px;
+}
+
+#softdriveExp .description{
     float:right;
 }
 
-#stemExp .image{
+#softdriveExp .image{
     float:left;
+    height:250px;
+    width:50%;
+}
+
+#stemExp {
+    height:300px;
+    padding-bottom: 50px;
+}
+
+#stemExp .description{
+    float:left;
+}
+
+#stemExp .image{
+    float:right;
     height:320px;
+    width: 40%;
 }
 
 /*Project Screen*/
@@ -251,7 +273,7 @@ body{
 #projectScreen .heading{
     padding:30px;
     color: white;
-    text-align: left;
+    text-align: center;
     font-weight: normal;
 }
 
